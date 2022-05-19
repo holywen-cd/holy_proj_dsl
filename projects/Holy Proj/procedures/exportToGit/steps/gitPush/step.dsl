@@ -1,0 +1,21 @@
+
+step 'gitPush', {
+  projectName = 'Holy Proj'
+  subprocedure = 'Commit'
+  subproject = '/plugins/EC-Git/project'
+  timeLimit = '0'
+  timeLimitUnits = 'seconds'
+  actualParameter 'authorEmail', 'shaohua.wen@gmail.com'
+  actualParameter 'authorName', 'shaohua wen'
+  actualParameter 'committerEmail', 'shaohua.wen@gmail.com'
+  actualParameter 'committerName', 'shaohua wen'
+  actualParameter 'config', '/projects/Holy Proj/pluginConfigurations/holyscnsync'
+  actualParameter 'failOnEmptyCommit', 'false'
+  actualParameter 'files', '.'
+  actualParameter 'gitRepoFolder', '/tmp/holy_proj_dsl'
+  actualParameter 'message', 'init '
+  actualParameter 'push', 'true'
+  actualParameter 'remote', 'origin'
+  actualParameter 'removeMissing', 'false'
+  actualParameter 'resultPropertySheet', '/myJob/commit'
+}

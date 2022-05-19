@@ -1,0 +1,2 @@
+ectool setProperty "/myStageRuntime/FREEDISK" "$(df -k /dev/nvme0n1p1 | tail -1 | awk '{print $4}')"
+ectool setProperty "/myPipelineStageRuntime/ec_summary/Free Disk Space (GB)" "$(df -H /dev/nvme0n1p1 | tail -1 | awk '{print $4}')"

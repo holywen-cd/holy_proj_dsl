@@ -1,0 +1,1 @@
+{"order":["Deploy to PreProd","Run SIT Tests","Send Slack Notification","Verify QA / Notify","Create ServiceNow Ticket","Verify Memory","Verify Disk Space"]}

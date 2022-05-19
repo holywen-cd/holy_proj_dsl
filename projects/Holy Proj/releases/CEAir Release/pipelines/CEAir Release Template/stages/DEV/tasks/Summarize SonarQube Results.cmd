@@ -1,0 +1,2 @@
+ectool setProperty "/myPipelineStageRuntime/ec_summary/Security Rating" "$[/javascript myStageRuntime.tasks['Run SonarQube'].job.runSonarScanner.security_rating]"
+ectool setProperty "/myPipelineStageRuntime/ec_summary/Violations" "$[/javascript myStageRuntime.tasks['Run SonarQube'].job.runSonarScanner.violations]"

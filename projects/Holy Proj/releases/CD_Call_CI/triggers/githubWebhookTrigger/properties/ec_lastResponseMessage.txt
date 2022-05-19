@@ -1,0 +1,1 @@
+Launching trigger 'githubWebhookTrigger' for event 'push' in branch(es) 'master' of the 'holywen-cd/jenkins-example' repository.

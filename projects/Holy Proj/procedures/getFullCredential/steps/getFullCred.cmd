@@ -1,0 +1,2 @@
+ectool getFullCredential  /projects/EC-SonarQube-1.3.1.2020060403/credentials/weaveworks --value userName
+ectool getFullCredential  /projects/EC-SonarQube-1.3.1.2020060403/credentials/weaveworks --value password
